@@ -107,7 +107,7 @@ function acheter(acheteurId, annonceId) {
     commission
   });
 
-  console.log("Achat réussi !");
+  console.log("Achat reussi !");
 }
 
 
@@ -156,11 +156,11 @@ function stats() {
 }
 
 
-publishAnnonce(1, "iPhone", "Bon état", 300, "Electronique", "bon");
+publishAnnonce(1, "iPhone", "Bon etat", 300, "Electronique", "bon");
 publishAnnonce(3, "Chaise", "Neuve", 100, "Meuble", "neuf");
 
 acheter(2, 1);
 
-ajouterAvis(2, 1, 5, "Très bien", 0);
+ajouterAvis(2, 1, 5, "Tres bien", 0);
 
 stats();
